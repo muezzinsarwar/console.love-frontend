@@ -1,99 +1,100 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 .profile-page-container {
-    display: block;
-    text-align: center;
-    text-decoration: none;
+  display: block;
+  text-align: center;
+  text-decoration: none;
 }
 
 .profile-box {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    text-decoration: none;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
 }
 
 #profile-image {
-    margin: 10px;
-    padding: 0 auto;
-    max-width: 400px;
-    max-height: 400px;
-    border-radius: 32px;
-    transition: transform 0.25s ease-in;
+  margin: 10px;
+  padding: 0 auto;
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 32px;
+  transition: transform 0.25s ease-in;
 }
 
 @media (max-width: 500px) {
-    #profile-image {
-        max-width: 280px;
-        max-height: 280px;
-    }
+  #profile-image {
+    max-width: 280px;
+    max-height: 280px;
+  }
 }
 
 .profile-ul {
-    list-style-type: none;
-    font-family: 'Quicksand', cursive;
+  list-style-type: none;
+  font-family: 'Quicksand', cursive;
 }
 
 .profile-list {
-    text-align: left;
-    max-width: 400px;
-    max-height: 400px;
+  text-align: left;
+  max-width: 400px;
+  max-height: 400px;
 }
 
 .github-button {
-    display: block;
-    margin: 0 auto;
-    font-family: 'Bungee', cursive;
-    font-size: 1rem;
-    width: 280px;
-    padding: 0.5rem 0.75rem;
-    background-color: crimson;
-    color: white;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Bungee', cursive;
+  font-size: 1rem;
+  width: 280px;
+  padding: 0.5rem 0.75rem;
+  background-color: crimson;
+  color: white;
 }
 
 @media (max-width: 500px) {
-    .github-button {
-        margin: 25px 0px -15px 103px;
-    }
+  .github-button {
+    margin: 25px 0px -15px 103px;
+  }
 }
 
 .edit-button {
-    display: block;
-    margin: 10px auto;
-    font-family: 'Bungee', cursive;
-    font-size: 1rem;
-    width: 280px;
-    padding: 0.5rem 0.75rem;
-    background-color: black;
-    color: white;
+  display: block;
+  margin: 10px auto;
+  font-family: 'Bungee', cursive;
+  font-size: 1rem;
+  width: 280px;
+  padding: 0.5rem 0.75rem;
+  background-color: black;
+  color: white;
 }
 
 .match-button {
-    display: block;
-    margin: auto;
-    font-family: 'Bungee', cursive;
-    font-size: 1rem;
-    width: 280px;
-    padding: 0.5rem 0.75rem;
-    background-color: crimson;
-    color: white;
+  display: block;
+  margin: auto;
+  font-family: 'Bungee', cursive;
+  font-size: 1rem;
+  width: 280px;
+  padding: 0.5rem 0.75rem;
+  background-color: crimson;
+  color: white;
 }
 /*--- All Links ---*/
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:link {
-    color: black;
+  color: black;
 }
 a:visited {
-    color: black;
+  color: black;
 }
 
 a:hover {
-    color: none;
+  color: none;
 }
 
 a:active {
-    color: none;
+  color: none;
 }
