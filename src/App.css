@@ -1,55 +1,62 @@
+/* My general comment which applies to all your CSS files is to style using class selectors rather
+than tag or id selectors. Here are some reasons why: https://frontstuff.io/you-need-to-stop-targeting-tags-in-css */
+
+/* I noticed that there's some inconsistent indentation (i.e. 2 spaces versus 4 spaces) throughout your codebase. Consider picking one convention and keeping it standard throuhgout your codebase.
+*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 header,
 nav {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #logo {
-    width: 400px;
+  width: 400px;
 }
 
+/* Consider moving all your media queries to the bottom of your CSS files for easier discovery
+*/
 @media (max-width: 500px) {
-    #logo {
-        width: 280px;
-    }
+  #logo {
+    width: 280px;
+  }
 }
 
 #sign-up-message {
-    display: block;
-    text-align: center;
-    font-size: 1.2rem;
-    margin: 15px 80px 15px 80px;
-    font-family: 'Quicksand', cursive;
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 15px 80px 15px 80px;
+  font-family: 'Quicksand', cursive;
 }
 
 @media (max-width: 500px) {
-    #sign-up-message {
-        font-size: 1rem;
-        margin: 15px 103px 15px 103px;
-    }
+  #sign-up-message {
+    font-size: 1rem;
+    margin: 15px 103px 15px 103px;
+  }
 }
 .guest-link {
-    color: crimson;
-    font-family: 'Quicksand', cursive;
-    text-decoration: underline;
-    display: block;
-    text-align: center;
+  color: crimson;
+  font-family: 'Quicksand', cursive;
+  text-decoration: underline;
+  display: block;
+  text-align: center;
 }
 
 .delete-container {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .delete-button {
-    display: block;
-    margin: auto;
-    font-family: 'Bungee', cursive;
-    font-size: 1rem;
-    width: 280px;
-    padding: 0.5rem 0.75rem;
-    background-color: black;
-    color: white;
+  display: block;
+  margin: auto;
+  font-family: 'Bungee', cursive;
+  font-size: 1rem;
+  width: 280px;
+  padding: 0.5rem 0.75rem;
+  background-color: black;
+  color: white;
 }
